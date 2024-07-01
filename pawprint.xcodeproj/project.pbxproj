@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7960B3972C32591E00F32B06 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7960B3962C32591E00F32B06 /* SplashView.swift */; };
+		7960B39D2C32605300F32B06 /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7960B39C2C32605300F32B06 /* OnBoardingView.swift */; };
+		79C2A1D42C330CAB007D16D3 /* FirstOnboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C2A1D32C330CAB007D16D3 /* FirstOnboarding.swift */; };
+		79C2A1D62C330D43007D16D3 /* SecondOnboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C2A1D52C330D43007D16D3 /* SecondOnboarding.swift */; };
+		79C2A1D82C330D65007D16D3 /* ThirdOnboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C2A1D72C330D65007D16D3 /* ThirdOnboarding.swift */; };
 		E763DBA12C2AFEF80087EA5B /* pawprintApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E763DBA02C2AFEF80087EA5B /* pawprintApp.swift */; };
 		E763DBA32C2AFEF80087EA5B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E763DBA22C2AFEF80087EA5B /* ContentView.swift */; };
 		E763DBA52C2AFEF90087EA5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E763DBA42C2AFEF90087EA5B /* Assets.xcassets */; };
@@ -18,6 +23,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7960B3962C32591E00F32B06 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		7960B39C2C32605300F32B06 /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
+		79C2A1D32C330CAB007D16D3 /* FirstOnboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstOnboarding.swift; sourceTree = "<group>"; };
+		79C2A1D52C330D43007D16D3 /* SecondOnboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondOnboarding.swift; sourceTree = "<group>"; };
+		79C2A1D72C330D65007D16D3 /* ThirdOnboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdOnboarding.swift; sourceTree = "<group>"; };
 		E763DB9D2C2AFEF70087EA5B /* pawprint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pawprint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E763DBA02C2AFEF80087EA5B /* pawprintApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pawprintApp.swift; sourceTree = "<group>"; };
 		E763DBA22C2AFEF80087EA5B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -40,6 +50,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7960B3942C3258ED00F32B06 /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				7960B39A2C325FFA00F32B06 /* OnBoarding */,
+				7960B39E2C32666500F32B06 /* Home */,
+				7960B3952C3258F400F32B06 /* Splash */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		7960B3952C3258F400F32B06 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				7960B39B2C32600600F32B06 /* View */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		7960B39A2C325FFA00F32B06 /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				79C2A1D22C330C90007D16D3 /* Components */,
+				7960B39C2C32605300F32B06 /* OnBoardingView.swift */,
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
+		7960B39B2C32600600F32B06 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7960B3962C32591E00F32B06 /* SplashView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7960B39E2C32666500F32B06 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		79C2A1D22C330C90007D16D3 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				79C2A1D32C330CAB007D16D3 /* FirstOnboarding.swift */,
+				79C2A1D52C330D43007D16D3 /* SecondOnboarding.swift */,
+				79C2A1D72C330D65007D16D3 /* ThirdOnboarding.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		E763DB942C2AFEF70087EA5B = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +124,7 @@
 				E7B00C4F2C328DDA00FAEF87 /* Views */,
 				E7B00C4E2C328DBE00FAEF87 /* Models */,
 				E7B00C4D2C328DA400FAEF87 /* ViewModels */,
+				7960B3942C3258ED00F32B06 /* Feature */,
 				E763DBA02C2AFEF80087EA5B /* pawprintApp.swift */,
 				E763DBA22C2AFEF80087EA5B /* ContentView.swift */,
 				E763DBA42C2AFEF90087EA5B /* Assets.xcassets */,
@@ -181,12 +244,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79C2A1D82C330D65007D16D3 /* ThirdOnboarding.swift in Sources */,
 				E7B00C582C3293B500FAEF87 /* PawPrintButtonStyle.swift in Sources */,
 				E7B00C512C328DF900FAEF87 /* WhiteboardAnalyzeResultViewModel.swift in Sources */,
 				E763DBA32C2AFEF80087EA5B /* ContentView.swift in Sources */,
 				E7B00C532C328E3A00FAEF87 /* WordResult.swift in Sources */,
 				E7B00C552C328EF800FAEF87 /* WhiteboardAssessmentResultView.swift in Sources */,
+				79C2A1D42C330CAB007D16D3 /* FirstOnboarding.swift in Sources */,
+				79C2A1D62C330D43007D16D3 /* SecondOnboarding.swift in Sources */,
 				E763DBA12C2AFEF80087EA5B /* pawprintApp.swift in Sources */,
+				7960B3972C32591E00F32B06 /* SplashView.swift in Sources */,
+				7960B39D2C32605300F32B06 /* OnBoardingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
